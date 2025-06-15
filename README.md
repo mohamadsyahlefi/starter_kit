@@ -24,6 +24,20 @@ Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
 
 ![Halaman Login](assets/login_page.png "Halaman Login")
 
+**Pada halaman login ini, pengguna bisa masuk langsung atau via github, google, ataupun microsoft. Berikut akun default untuk Login:**
+*   **Admin**
+    *   Email: `admin@admin.com`
+    *   Password: `password`
+    *   Fitur: Akses penuh CRUD berita & kategori, dapat mengubah status berita (publish/draft), melihat semua berita.
+*   **Editor**
+    *   Email: `editor@editor.com`
+    *   Password: `password`
+    *   Fitur: Dapat mengubah status berita (publish/draft), melihat semua berita.
+*   **Wartawan**
+    *   Email: `wartawan@wartawan.com`
+    *   Password: `password`
+    *   Fitur: Dapat membuat berita baru (otomatis draft), mengedit/menghapus berita sendiri, tidak bisa mengubah status berita.
+
 ### Halaman Lupa Kata Sandi
 
 ![Halaman Lupa Kata Sandi](assets/forgot_password_page.png "Halaman Lupa Kata Sandi")
@@ -32,9 +46,13 @@ Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
 
 ![Halaman Dashboard](assets/dashboard_page.png "Halaman Dashboard")
 
+**Pada halaman ini, default milik laravel**
+
 ### Halaman Daftar Berita (Editor)
 
 ![Daftar Berita Editor](assets/editor_menu_daftar_berita_page.png "Halaman Daftar Berita Editor")
+
+**Pada halaman ini dan seterusnya kebawah menggunakan template AdminLTE**
 
 ### Halaman Publikasi Berita (Editor)
 
@@ -98,8 +116,6 @@ Buka terminal atau Git Bash Anda dan kloning repositori proyek:
 git clone https://github.com/mohamadsyahlefi/starter_kit.git
 cd starter_kit
 ```
-
-**Ganti `<URL_REPOSITORI_ANDA>` dengan URL repositori GitHub Anda.**
 
 ### 2. Instal Dependensi Composer
 
@@ -193,22 +209,6 @@ Jika Anda mengunggah gambar atau file lain dan menyimpannya ke direktori `storag
 php artisan storage:link
 ```
 
-## Pengguna Default
-
-Proyek ini dilengkapi dengan pengguna default untuk mempermudah pengujian:
-
-*   **Admin**
-    *   Email: `admin@admin.com`
-    *   Password: `password`
-    *   Fitur: Akses penuh CRUD berita & kategori, dapat mengubah status berita (publish/draft), melihat semua berita.
-*   **Editor**
-    *   Email: `editor@editor.com`
-    *   Password: `password`
-    *   Fitur: Dapat mengubah status berita (publish/draft), melihat semua berita.
-*   **Wartawan**
-    *   Email: `wartawan@wartawan.com`
-    *   Password: `password`
-    *   Fitur: Dapat membuat berita baru (otomatis draft), mengedit/menghapus berita sendiri, tidak bisa mengubah status berita.
 
 Selamat menggunakan Laravel Starter Kit Anda!
 Starterkit ini di buat oleh [Mohamad Syahlefi Ghoni Al Maghfur](https://www.linkedin.com/in/mohamadsyahlefi)
