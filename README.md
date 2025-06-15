@@ -24,7 +24,8 @@ Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
 
 ![Halaman Login](assets/login_page.png "Halaman Login")
 
-**Pada halaman login ini, pengguna bisa masuk langsung atau via github, google, ataupun microsoft. Berikut akun default untuk Login:**
+**Pada halaman login ini, pengguna bisa masuk langsung atau via github, google, ataupun microsoft. (Catatan: untuk melakukan login via pihak ketiga(seperti google), lakukan daftar & setup pada google cloud untuk mendapatkan client_id, client_secret,dll. Atau lebih jelasnya buka [link berikut](https://youtu.be/R7_zvfv2C1g?si=FEygPi2T4VT7QFhD))**
+**Berikut akun default untuk Login:**
 *   **Admin**
     *   Email: `admin@admin.com`
     *   Password: `password`
@@ -61,6 +62,8 @@ Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
 ### Halaman Profil (Editor)
 
 ![Profil Editor](assets/editor_profile_page.png "Halaman Profil Editor")
+
+**Pada halaman ini, tiap user yang login bisa melakukan edit profile pada masing-masing akun**
 
 ### Halaman Daftar Berita (Admin)
 
@@ -210,5 +213,5 @@ php artisan storage:link
 ```
 
 
-Selamat menggunakan Laravel Starter Kit Anda!
+Selamat menggunakan Laravel Starter Kit!
 Starterkit ini di buat oleh [Mohamad Syahlefi Ghoni Al Maghfur](https://www.linkedin.com/in/mohamadsyahlefi)
