@@ -1,6 +1,68 @@
 # Laravel Starter Kit
 
+*   **Nama** Mohamad Syahlefi Ghoni Al Maghfur
+*   **NIM / KELAS** 23091397117 / 2023D
+*   **Prodi** D4 Manajemen Informatika
+*   **Mata Kuliah** UAS - Pemrograman Web Lanjut
+*   **Universitas** Universitas Negeri Surabaya
+
 Laravel Starter Kit adalah aplikasi web dasar yang dibangun dengan Laravel, menyediakan fitur-fitur penting seperti autentikasi pengguna, manajemen peran (role-based access control), dan fungsionalitas CRUD (Create, Read, Update, Delete) untuk kategori dan berita. Proyek ini cocok sebagai fondasi untuk aplikasi web yang lebih kompleks.
+
+## Tampilan Antarmuka Aplikasi
+
+Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
+
+### Halaman Selamat Datang
+
+![Halaman Selamat Datang](assets/welcome_page.png "Halaman Selamat Datang")
+
+### Halaman Registrasi
+
+![Halaman Registrasi](assets/register_page.png "Halaman Registrasi")
+
+### Halaman Login
+
+![Halaman Login](assets/login_page.png "Halaman Login")
+
+### Halaman Lupa Kata Sandi
+
+![Halaman Lupa Kata Sandi](assets/forgot_password_page.png "Halaman Lupa Kata Sandi")
+
+### Halaman Dashboard
+
+![Halaman Dashboard](assets/dashboard_page.png "Halaman Dashboard")
+
+### Halaman Daftar Berita (Editor)
+
+![Daftar Berita Editor](assets/editor_menu_daftar_berita_page.png "Halaman Daftar Berita Editor")
+
+### Halaman Publikasi Berita (Editor)
+
+![Publikasi Berita Editor](assets/editor_menu_publish_page.png "Halaman Publikasi Berita Editor")
+
+### Halaman Profil (Editor)
+
+![Profil Editor](assets/editor_profile_page.png "Halaman Profil Editor")
+
+### Halaman Daftar Berita (Admin)
+
+![Daftar Berita Admin](assets/admin_menu_daftar_berita.png "Halaman Daftar Berita Admin")
+
+### Halaman Tambah Berita (Admin)
+
+![Tambah Berita Admin](assets/admin_menu_tambah_berita.png "Halaman Tambah Berita Admin")
+
+### Halaman Kategori
+
+![Menu Kategori](assets/categories_menu.png "Halaman Menu Kategori")
+
+### Halaman Daftar Berita (Wartawan)
+
+![Daftar Berita Wartawan](assets/wartawan_menu_daftar_berita_page.png "Halaman Daftar Berita Wartawan")
+
+### Halaman Tambah Berita (Wartawan)
+
+![Tambah Berita Wartawan](assets/wartawan_menu_tambah_berita_page.png "Halaman Tambah Berita Wartawan")
 
 ## Fitur Utama
 
@@ -26,15 +88,15 @@ Sebelum Anda memulai, pastikan Anda telah menginstal perangkat lunak berikut di 
 
 ## Langkah-langkah Instalasi
 
-Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek di lingkungan lokal Anda.
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan proyek di lingkungan lokal.
 
 ### 1. Kloning Repositori
 
 Buka terminal atau Git Bash Anda dan kloning repositori proyek:
 
 ```bash
-git clone <URL_REPOSITORI_ANDA>
-cd StaterKit
+git clone https://github.com/mohamadsyahlefi/starter_kit.git
+cd starter_kit
 ```
 
 **Ganti `<URL_REPOSITORI_ANDA>` dengan URL repositori GitHub Anda.**
@@ -149,3 +211,4 @@ Proyek ini dilengkapi dengan pengguna default untuk mempermudah pengujian:
     *   Fitur: Dapat membuat berita baru (otomatis draft), mengedit/menghapus berita sendiri, tidak bisa mengubah status berita.
 
 Selamat menggunakan Laravel Starter Kit Anda!
+Starterkit ini di buat oleh [Mohamad Syahlefi Ghoni Al Maghfur](https://www.linkedin.com/in/mohamadsyahlefi)
