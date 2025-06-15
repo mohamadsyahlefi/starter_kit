@@ -59,7 +59,9 @@ Berikut adalah beberapa gambaran tampilan antarmuka dari aplikasi ini:
 
 ![Publikasi Berita Editor](assets/editor_menu_publish_page.png "Halaman Publikasi Berita Editor")
 
-### Halaman Profil (Editor)
+**Editor bisa mengubah status berita menjadi Publish atau Unpublish**
+
+### Halaman Profil
 
 ![Profil Editor](assets/editor_profile_page.png "Halaman Profil Editor")
 
